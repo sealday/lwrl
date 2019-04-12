@@ -47,7 +47,7 @@ python3 -m lwrl.experiments.atari-dqn.main --env_id=BreakoutNoFrameskip-v4 --age
 Before training, make sure that Visdom server is started by running:
 
 ```sh
-python visdom.server &
+python -mvisdom.server &
 ```
 
 During the training, you can navigate to `http://localhost:8097` for the training process visualization. After the agent is trained, you can test the agent by:
